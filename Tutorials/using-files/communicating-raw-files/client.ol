@@ -12,6 +12,6 @@ main {
         .filename = "source.pdf";
         .format = "binary"
     }
-    readFile@File( f )( rq.content )
+    readFile@File( f )( rq.content );
     setFile@Server( rq )()
 }
